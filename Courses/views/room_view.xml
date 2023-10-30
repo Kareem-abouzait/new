@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <data>
+        <record id="room_action" model="ir.actions.act_window">
+                <field name="res_model">courses.room</field>
+                <field name="name">room</field>
+                
+            </record>
+    
+        <record model="ir.ui.view" id="new_room_tree">
+            <field name="name">room Tree View</field>
+            <field name="model">courses.room</field>
+            
+            <field name="arch" type="xml">
+                <tree>
+                    <field name="name"/>
+                    <field name="capacity"/>
+                    <field name="sequence"/>
+                    
+                </tree>
+            </field>
+        </record>
+        <record model="ir.ui.view" id="new_room_form">
+    <field name="name">room Form View</field>
+    <field name="model">courses.room</field>
+    <field name="arch" type="xml">
+        <form>
+            <header>
+                
+            </header>
+            <sheet>
+               
+                <group>
+                    <field name="name"/>
+                    <field name="capacity"/>
+                    <field name="sequence"/>
+                </group>
+            </sheet>
+        </form>
+    </field>
+</record>
+
+
+                <menuitem
+                    id="room_menu"
+                    name="room"
+                    parent="course_root_menu"
+                    action="room_action"/>
+    
+    </data>
+    
+
+</odoo>

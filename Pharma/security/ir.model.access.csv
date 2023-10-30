@@ -1,0 +1,4 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+pharma_pharmacy_id,pharma.pharmacy,model_pharma_pharmacy,,1,1,1,1
+pharma_employee_id,pharma.employee,model_pharma_employee,,1,1,1,1
+

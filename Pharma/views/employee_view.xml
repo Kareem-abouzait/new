@@ -1,0 +1,38 @@
+
+<odoo>
+
+    <data>  
+            <record id="employee_action" model="ir.actions.act_window">
+                <field name="res_model">pharma.employee</field>
+                <field name="name">employee</field>
+            </record>
+
+            <record id="employee_tree_model" model="ir.ui.view">
+                <field name="name">employee Tree View </field>
+                <field name="model">pharma.employee</field>
+                <field name="arch" type='xml'>
+                <tree>
+                    <field name='pharmacy_id'/>
+                    <field name='name'/>
+                    
+                </tree>
+                
+                </field>
+                
+            </record>
+
+
+
+
+
+            <menuitem
+                id="pharma_root_menu"
+                name="Pharma" />
+                <menuitem
+                    id="employee_menu"
+                    name="employee"
+                    parent="pharma_root_menu"
+                    action="employee_action"/>
+    </data> 
+
+</odoo>

@@ -1,0 +1,199 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* Pharma
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 16.0-20230826\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-10-30 10:25+0000\n"
+"PO-Revision-Date: 2023-10-30 10:25+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: Pharma
+#. odoo-python
+#: code:addons/Pharma/models/pharmacy.py:0
+#: model:ir.model.fields,field_description:Pharma.field_pharma_pharmacy__address
+#, python-format
+msgid "Address"
+msgstr "العنوان"
+
+#. module: Pharma
+#: model_terms:ir.ui.view,arch_db:Pharma.pharmacy_view_kanban
+msgid "Address:"
+msgstr "العنوان"
+
+#. module: Pharma
+#. odoo-python
+#: code:addons/Pharma/models/pharmacy.py:0
+#: model:ir.model.fields,field_description:Pharma.field_pharma_employee__contact_info
+#: model:ir.model.fields,field_description:Pharma.field_pharma_pharmacy__contact_info
+#, python-format
+msgid "Contact Information"
+msgstr "معلومات اضافيه"
+
+#. module: Pharma
+#: model:ir.model.fields,field_description:Pharma.field_pharma_employee__create_uid
+#: model:ir.model.fields,field_description:Pharma.field_pharma_pharmacy__create_uid
+msgid "Created by"
+msgstr "انشاء من قبل"
+
+#. module: Pharma
+#: model:ir.model.fields,field_description:Pharma.field_pharma_employee__create_date
+#: model:ir.model.fields,field_description:Pharma.field_pharma_pharmacy__create_date
+msgid "Created on"
+msgstr "انشاء في "
+
+#. module: Pharma
+#: model:ir.model.fields,field_description:Pharma.field_pharma_employee__display_name
+#: model:ir.model.fields,field_description:Pharma.field_pharma_pharmacy__display_name
+msgid "Display Name"
+msgstr "الاسم"
+
+#. module: Pharma
+#. odoo-python
+#: code:addons/Pharma/models/pharmacy.py:0
+#: model:ir.model.fields,field_description:Pharma.field_pharma_pharmacy__employees
+#, python-format
+msgid "Employees"
+msgstr "المزظفين"
+
+#. module: Pharma
+#. odoo-python
+#: code:addons/Pharma/models/pharmacy.py:0
+#: model:ir.model.fields,field_description:Pharma.field_pharma_pharmacy__fname
+#, python-format
+msgid "First Name"
+msgstr "الاسم الاول "
+
+#. module: Pharma
+#. odoo-python
+#: code:addons/Pharma/models/pharmacy.py:0
+#: model:ir.model.fields,field_description:Pharma.field_pharma_pharmacy__fullname
+#, python-format
+msgid "Full Name"
+msgstr "الاسم بالكامل"
+
+#. module: Pharma
+#: model:ir.model.fields,field_description:Pharma.field_pharma_employee__id
+#: model:ir.model.fields,field_description:Pharma.field_pharma_pharmacy__id
+msgid "ID"
+msgstr "الرقم التعريفي"
+
+#. module: Pharma
+#: model:ir.model.fields,field_description:Pharma.field_pharma_employee__is_employee
+msgid "Is Employee"
+msgstr "هل هو موظف"
+
+#. module: Pharma
+#: model:ir.model.fields,field_description:Pharma.field_pharma_employee____last_update
+#: model:ir.model.fields,field_description:Pharma.field_pharma_pharmacy____last_update
+msgid "Last Modified on"
+msgstr "تم التغير في"
+
+#. module: Pharma
+#. odoo-python
+#: code:addons/Pharma/models/pharmacy.py:0
+#: model:ir.model.fields,field_description:Pharma.field_pharma_pharmacy__lname
+#, python-format
+msgid "Last Name"
+msgstr "اسم العائله"
+
+#. module: Pharma
+#: model:ir.model.fields,field_description:Pharma.field_pharma_employee__write_uid
+#: model:ir.model.fields,field_description:Pharma.field_pharma_pharmacy__write_uid
+msgid "Last Updated by"
+msgstr "اخر تحديث"
+
+#. module: Pharma
+#: model:ir.model.fields,field_description:Pharma.field_pharma_employee__write_date
+#: model:ir.model.fields,field_description:Pharma.field_pharma_pharmacy__write_date
+msgid "Last Updated on"
+msgstr "اخر تحديث في"
+
+#. module: Pharma
+#: model:ir.model.fields,field_description:Pharma.field_pharma_employee__name
+msgid "Name"
+msgstr "الاسم"
+
+#. module: Pharma
+#: model_terms:ir.ui.view,arch_db:Pharma.pharmacy_view_kanban
+msgid "Name :"
+msgstr "الاسم"
+
+#. module: Pharma
+#. odoo-python
+#: code:addons/Pharma/models/pharmacy.py:0
+#: model:ir.model.fields,field_description:Pharma.field_pharma_pharmacy__opening_hours
+#, python-format
+msgid "Opening Hours"
+msgstr "اوقات الفتح"
+
+#. module: Pharma
+#: model:ir.ui.menu,name:Pharma.pharma_root_menu
+msgid "Pharma"
+msgstr "فارما"
+
+#. module: Pharma
+#: model:ir.actions.act_window,name:Pharma.pharma_action
+#: model:ir.model.fields,field_description:Pharma.field_pharma_employee__pharmacy_id
+#: model:ir.ui.menu,name:Pharma.pharmacy_menu
+msgid "Pharmacy"
+msgstr "صيدليه"
+
+#. module: Pharma
+#. odoo-python
+#: code:addons/Pharma/models/pharmacy.py:0
+#: model:ir.model.fields,field_description:Pharma.field_pharma_pharmacy__pharmacy_id
+#, python-format
+msgid "Pharmacy ID"
+msgstr "رقم الصيدليه"
+
+#. module: Pharma
+#: model_terms:ir.ui.view,arch_db:Pharma.pharmacy_view_graph
+msgid "Pharmacy Sales"
+msgstr "مبيعات الصيدليه"
+
+#. module: Pharma
+#: model:ir.model.fields,field_description:Pharma.field_pharma_employee__position
+msgid "Position"
+msgstr "المكانه"
+
+#. module: Pharma
+#: model:ir.model.fields,field_description:Pharma.field_pharma_employee__qualification
+msgid "Qualification Document"
+msgstr "اوراق التاهيل "
+
+#. module: Pharma
+#: model_terms:ir.ui.view,arch_db:Pharma.pharma_form_view
+msgid "Unlink"
+msgstr "مسح"
+
+#. module: Pharma
+#: model:ir.actions.act_window,name:Pharma.employee_action
+#: model:ir.ui.menu,name:Pharma.employee_menu
+msgid "employee"
+msgstr "الموظف"
+
+#. module: Pharma
+#: model:ir.model,name:Pharma.model_pharma_employee
+msgid "pharma.employee"
+msgstr "موظفين فارما"
+
+#. module: Pharma
+#: model:ir.model,name:Pharma.model_pharma_pharmacy
+msgid "pharma.pharmacy"
+msgstr "موظفين فارما""
+
+
+
+
+
+
+
+

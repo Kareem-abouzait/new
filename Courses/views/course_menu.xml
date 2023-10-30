@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <data>
+    
+        <record id="courses_menu" model="website.menu">
+            <field name="name">courses</field>
+            <field name="url">/courses</field>
+            <field name="parent_id" ref="website.main_menu"/>
+            <field name="sequence" type="int">60</field>
+        </record>
+    
+    </data>
+    
+
+</odoo>
